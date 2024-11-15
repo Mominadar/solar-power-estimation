@@ -17,7 +17,7 @@ function Map({ setSelectedArea, center, polygons: loadedPolygons = [] }) {
   const [mapCenter, setMapCenter] = useState(center);
   const [polygons, setPolygons] = useState([]);
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: import.meta.env.VITE_APP_GOOGLE_MAPS_API_KEY,
     libraries,
   });
 
