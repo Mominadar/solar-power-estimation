@@ -149,7 +149,7 @@ function App() {
           )}
         </Container>
 
-        <Footer />
+        {/* <Footer /> */}
       </Box>
     </ThemeProvider>
   );

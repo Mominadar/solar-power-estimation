@@ -13,7 +13,7 @@ export default defineConfig({
       name: "nllb",
       filename: "remoteEntry.js",
       exposes: {
-         './SolarEstimator': './src/index'
+         './SolarEstimator': './src/main'
       },
       shared: ['react','react-dom']
     })
